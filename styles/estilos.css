@@ -1,0 +1,66 @@
+p{
+    color : orange;
+}
+
+h3{
+    color:blue
+}
+
+a{
+    background-color: green;
+}
+
+#parrafo3{
+    color: green;
+}
+
+.parrafoGris{
+    color: grey;
+}
+
+.parrafoNegro{
+    color: black;
+}
+
+.textoGris{
+    color: grey;
+}
+
+.textoAzul{
+    color: blue;
+}
+
+.fondoRojo{
+    background-color: red;
+}
+
+.fondoAmarillo{
+    background-color: yellow;
+}
+
+.textoGrandeNegrita{
+    font-size: x-large;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.imagenPequeña{
+    height: 200px;
+}
+
+.parrafoAngosto{
+    height: 100px;
+    width: 350px;
+}
+
+.contenedorConMargen{
+    margin: 10px 10px 10px 10px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 25px;
+    margin-bottom: 18px;
+    border: 1px solid red;
+    padding: 10px;
+
+
+}

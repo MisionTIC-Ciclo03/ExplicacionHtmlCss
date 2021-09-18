@@ -5,6 +5,7 @@
         <meta charset = "UTF-8"/>
         <meta http-equiv="X-UA-Compatible" content="IE = edge"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="./styles/estilos.css"/>
         <description>Esta es la descripcion</description>
     </head>
     <body>
@@ -12,8 +13,8 @@
         <header>
             <h3>Esto es una lista ordenada</h3>
             <ol>
-                <li>elemento 1</li>
-                <li>elemento 2</li>
+                <li class="textoGris fondoRojo textoGrandeNegrita">elemento 1</li>
+                <li class="textoAzul fondoAmarillo ">elemento 2</li>
                 <li>elemento 3</li>
                 <li>elemento 4</li>
                 <li>elemento 5</li>
@@ -27,7 +28,7 @@
                 <li>elemento 4</li>
                 <li>elemento 5</li>
             </ul>
-            <div>Hola esto es un div</div>
+            <div class="textoGrandeNegrita textoAzul">Hola esto es un div</div>
 
         </header>
         <main> 
@@ -43,33 +44,39 @@
                 <a href="./paginatest.html" >Este es mi link interno</a>
                 <a href="./formulario.html" >Este es mi link a formulario</a>
                 <a href="https://www.google.com" >
-                    <img src="./media/borderCollie.jpg" alt="Foto de un Border Collie"/>
+                    link de google
                 </a>
 
                 <article>
                     <h3>Parrafo 1</h3>
-                    <p>
+                    <p class="parrafoGris parrafoAngosto">
                         Esto es un parrafo asdjfjasdfklasdfjasd lkdjflajsdfja.kdfjadsjf
                         fjasdlfjñalsdjfñalsdjfasdkfasdflkjasñdlkfjasdjfñasldkfjasdlkfj
                         lsakdjfñlsdjfalksjdfñalsjrkljejñljasdlfjañlsjdfsjfalsjdfjsdjflfsd
                     </p>
                     <h3>Parrafo 2</h3>
-                    <p>
+                    <p class="parrafoNegro">
                         Esto es el segundo parrafo asdjfjasdfklasdfjasd lkdjflajsdfja.kdfjadsjf
                         fjasdlfjñalsdjfñalsdjfasdkfasdflkjasñdlkfjasdjfñasldkfjasdlkfj
                         lsakdjfñlsdjfalksjdfñalsjrkljejñljasdlfjañlsjdfsjfalsjdfjsdjflfsd
                     </p>
                     <h3>Parrafo 3</h3>
-                    <p>
+                    <p id="parrafo3">
                         Esto es el tercer parrafo parrafo asdjfjasdfklasdfjasd lkdjflajsdfja.kdfjadsjf
                         fjasdlfjñalsdjfñalsdjfasdkfasdflkjasñdlkfjasdjfñasldkfjasdlkfj
                         lsakdjfñlsdjfalksjdfñalsjrkljejñljasdlfjañlsjdfsjfalsjdfjsdjflfsd
                     </p>
                     <span>Este es un texto corto</span>
                 </article>
-                <img src="./media/borderCollie.jpg" alt="Foto de un Border Collie">
+                <img class="imagenPequeña" src="./media/borderCollie.jpg" alt="Foto de un Border Collie">
             </section>
-            <section>Seccion 2</section>
+            <section>
+              <div class="contenedorConMargen">
+                  <div>Div 1</div>
+                  <div>Div2</div>
+                  <div>Div3</div>
+              </div> 
+            </section>
             <section>Seccion 3</section>
         </main>
         <footer>
