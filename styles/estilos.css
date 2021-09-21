@@ -64,3 +64,27 @@ a{
 
 
 }
+
+.parrafopading{
+    padding: 40px;
+}
+
+.divTest{
+    border: 1px solid red;
+}
+
+.contenedorDivsGrid{
+    border: 2px solid green;
+    display: grid;
+    grid-column: auto;
+    grid-template-rows: 50px 50px;
+    grid-template-columns: 30% 30% 40%;
+    
+}
+
+.contenedorDivsFlex{
+    border: 2px solid green;
+    display: flex;
+    
+
+}
