@@ -13,3 +13,20 @@ ul{
     justify-content: space-between; /*Los separamos haciendo que se divida en el espaci0*/
     padding: 10px; /*lo separa de los extremos con este padding*/
 }
+
+.buscar{
+    background-color: white;
+    border: 1px solid grey ;
+    padding: 4px;
+    border-radius: 8px;
+
+}
+
+.buscar:focus-within{ /*cambiarle propiedades cuando seleccionemos el input buscar*/
+    border: 1px solid blue;
+}
+
+.buscar > input{
+    outline: none; /*borde externo*/
+    border : 0px; /*quitarla el burde al campo input*/
+}
