@@ -14,9 +14,7 @@ ul{
     padding: 10px; /*lo separa de los extremos con este padding*/
 }
 
-.mainButton{
-    background-color: #1bb76e; /*Fondo del boton*/
-    color: white; /*Color de la letra del boton*/
+.button{
     border: 0px;
     padding: 5px 10px;
     border-radius: 10px; /*Redondeado del contorno*/
@@ -24,8 +22,28 @@ ul{
     box-shadow: 1px 1px green; /*Sombra del elemento valor a la derecha valor abajo y color*/
 }
 
+.button:hover{
+    cursor: pointer; /*Cuando pasa el mouse por el boton cambia el cursoor*/
+    transform: scale(1.3); /*Que se ponga mas grande al pasar el mouse*/
+}
+.mainButton{
+    background-color: #1bb76e; /*Fondo del boton*/
+    color: white; /*Color de la letra del boton*/
+}
+
 .mainButton:hover{
     cursor: pointer; /*Cuando pasa el mouse por el boton cambia el cursoor*/
     background-color: green; /*Cuando pasa el mouse por el boton cambia el color*/
-    transform: scale(1.3); /*Que se ponga mas grande al pasar el mouse*/
+    
+}
+
+.secondaryButton{
+    background-color: #66d8f5; /*Fondo del boton*/
+    color: white; /*Color de la letra del boton*/
+}
+
+.secondaryButton:hover{
+    cursor: pointer; /*Cuando pasa el mouse por el boton cambia el cursoor*/
+    background-color: rgb(33, 66, 155); /*Cuando pasa el mouse por el boton cambia el color*/
+    
 }
