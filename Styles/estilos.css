@@ -49,5 +49,21 @@ ul{
 .secondaryButton:hover{
     cursor: pointer; /*Cuando pasa el mouse por el boton cambia el cursoor*/
     background-color: rgb(33, 66, 155); /*Cuando pasa el mouse por el boton cambia el color*/
+}
     
+.buscar{
+    background-color: white;
+    border: 1px solid grey ;
+    padding: 4px;
+    border-radius: 8px;
+
+}
+
+.buscar:focus-within{ /*cambiarle propiedades cuando seleccionemos el input buscar*/
+    border: 1px solid blue;
+}
+
+.buscar > input{
+    outline: none; /*borde externo*/
+    border : 0px; /*quitarla el burde al campo input*/
 }
