@@ -97,7 +97,7 @@ ul{
 
 .contenedorImagen:hover{
     cursor: pointer;
-    transform: scale(1.05gi);
+    transform: scale(1.1);
 }
 
 .breedCardContainer{/*contenedor para las tarjetas de las fotos*/
@@ -118,3 +118,10 @@ ul{
     font-weight: bold; /*negrita*/
     font-size: x-large ; /*grande*/
 }
+
+.titulo{
+    color: grey;
+    display: flex;
+    justify-content: center;
+}
+
