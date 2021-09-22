@@ -89,6 +89,15 @@ ul{
 .contenedorImagen > img {
     object-fit: cover; /*funcionan si el padre tiene display flex, trabaja la imagen con el tamaño del contenedor*/
     width: 100%;/*ajustar el tamaño maximo al espacio del contenedor par que todas sean del mismo tamaño*/
+    border-top-right-radius: 10px;/*bordes redondeados*/
+    border-top-right-radius: 10px;
+    margin-bottom:10px ;
+
+}
+
+.contenedorImagen:hover{
+    cursor: pointer;
+    transform: scale(1.05gi);
 }
 
 .breedCardContainer{/*contenedor para las tarjetas de las fotos*/
@@ -97,5 +106,15 @@ ul{
 
 .breedCard{
     margin: 10px; /*Separar las imagenes una de la otra*/
+    background-color: rgb(70, 78, 90);
+    box-shadow: 5px 10px 5px rgb(231, 231, 231) ; /*sombra*/
+    border-top-right-radius: 10px;/*bordes redondeados*/
+    border-top-right-radius: 10px;
+}
 
+.breedTitle{
+    color: white;
+    margin: 10px;
+    font-weight: bold; /*negrita*/
+    font-size: x-large ; /*grande*/
 }
