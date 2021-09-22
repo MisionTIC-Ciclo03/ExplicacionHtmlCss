@@ -1,0 +1,15 @@
+body{
+    margin: 0px;   /*Eliminamos los margenes*/
+}
+
+ul{
+    list-style: none; /*Quitamos los bullets*/
+    padding: 0px; 
+    margin: 0px;
+}
+
+.navbar{
+    display: flex; /*Lo organizamos de forma vertical*/
+    justify-content: space-between; /*Los separamos haciendo que se divida en el espaci0*/
+    padding: 10px; /*lo separa de los extremos con este padding*/
+}
