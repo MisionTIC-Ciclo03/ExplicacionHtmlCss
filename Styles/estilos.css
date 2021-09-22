@@ -1,0 +1,69 @@
+body{
+    margin: 0px;   /*Eliminamos los margenes*/
+}
+
+ul{
+    list-style: none; /*Quitamos los bullets*/
+    padding: 0px; 
+    margin: 0px;
+}
+
+.navbar{
+    display: flex; /*Lo organizamos de forma vertical*/
+    justify-content: space-between; /*Los separamos haciendo que se divida en el espaci0*/
+    padding: 10px; /*lo separa de los extremos con este padding*/
+}
+
+.logo{
+    height: 70px;
+}
+
+.button{
+    border: 0px;
+    padding: 5px 10px;
+    border-radius: 10px; /*Redondeado del contorno*/
+    font-weight: bolder; /*Que la fuente se vea con mas potencia*/
+    box-shadow: 1px 1px green; /*Sombra del elemento valor a la derecha valor abajo y color*/
+}
+
+.button:hover{
+    cursor: pointer; /*Cuando pasa el mouse por el boton cambia el cursoor*/
+    transform: scale(1.3); /*Que se ponga mas grande al pasar el mouse*/
+}
+.mainButton{
+    background-color: #1bb76e; /*Fondo del boton*/
+    color: white; /*Color de la letra del boton*/
+}
+
+.mainButton:hover{
+    cursor: pointer; /*Cuando pasa el mouse por el boton cambia el cursoor*/
+    background-color: green; /*Cuando pasa el mouse por el boton cambia el color*/
+    
+}
+
+.secondaryButton{
+    background-color: #66d8f5; /*Fondo del boton*/
+    color: white; /*Color de la letra del boton*/
+}
+
+.secondaryButton:hover{
+    cursor: pointer; /*Cuando pasa el mouse por el boton cambia el cursoor*/
+    background-color: rgb(33, 66, 155); /*Cuando pasa el mouse por el boton cambia el color*/
+}
+    
+.buscar{
+    background-color: white;
+    border: 1px solid grey ;
+    padding: 4px;
+    border-radius: 8px;
+
+}
+
+.buscar:focus-within{ /*cambiarle propiedades cuando seleccionemos el input buscar*/
+    border: 1px solid blue;
+}
+
+.buscar > input{
+    outline: none; /*borde externo*/
+    border : 0px; /*quitarla el burde al campo input*/
+}
