@@ -13,3 +13,7 @@ ul{
     justify-content: space-between; /*Los separamos haciendo que se divida en el espaci0*/
     padding: 10px; /*lo separa de los extremos con este padding*/
 }
+
+.logo{
+    height: 70px;
+}
