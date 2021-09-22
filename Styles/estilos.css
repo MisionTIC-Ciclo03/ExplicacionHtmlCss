@@ -79,3 +79,23 @@ ul{
     outline: none; /*borde externo*/
     border : 0px; /*quitarla el burde al campo input*/
 }
+
+.contenedorImagen{
+    width: 240px;
+    height: 350px;
+    display: flex;
+}
+
+.contenedorImagen > img {
+    object-fit: cover; /*funcionan si el padre tiene display flex, trabaja la imagen con el tamaño del contenedor*/
+    width: 100%;/*ajustar el tamaño maximo al espacio del contenedor par que todas sean del mismo tamaño*/
+}
+
+.breedCardContainer{/*contenedor para las tarjetas de las fotos*/
+    display: flex; /*le aplico el display para poder que me quedan en horizontal y poderlas organizar*/
+}
+
+.breedCard{
+    margin: 10px; /*Separar las imagenes una de la otra*/
+
+}
