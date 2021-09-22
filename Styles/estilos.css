@@ -13,3 +13,19 @@ ul{
     justify-content: space-between; /*Los separamos haciendo que se divida en el espaci0*/
     padding: 10px; /*lo separa de los extremos con este padding*/
 }
+
+.mainButton{
+    background-color: #1bb76e; /*Fondo del boton*/
+    color: white; /*Color de la letra del boton*/
+    border: 0px;
+    padding: 5px 10px;
+    border-radius: 10px; /*Redondeado del contorno*/
+    font-weight: bolder; /*Que la fuente se vea con mas potencia*/
+    box-shadow: 1px 1px green; /*Sombra del elemento valor a la derecha valor abajo y color*/
+}
+
+.mainButton:hover{
+    cursor: pointer; /*Cuando pasa el mouse por el boton cambia el cursoor*/
+    background-color: green; /*Cuando pasa el mouse por el boton cambia el color*/
+    transform: scale(1.3); /*Que se ponga mas grande al pasar el mouse*/
+}
