@@ -1,57 +1,61 @@
 import logo from './logo.svg';
-import './App.css';
+import './styles/styles.css';
+import logotipo from './media/logo.png';
+import borderCollie from './media/Border Collie.jpg';
+import goldenRetriever from './media/Golden Retriever.jpg';
+
 
 function App() {
   return (
     <div className="App">
           <header>
-        <ul class="navbar">
+        <ul className="navbar">
             <li>
-                <img class="logo" src="./media/logo.png" alt="Logo Pagina" />
+                <img src={logotipo} alt="Logo Pagina" className="logo" />
             </li>
             <li>
-                <button class="button mainButton">Nuevo Post</button>
+                <button className="button mainButton">Nuevo Post</button>
             </li>
             <li>
-                <div class = "buscar">
+                <div className = "buscar">
                     <input type="text" placeholder="Buscar una Raza" />
-                    <i class="fas fa-search button"></i>
+                    <i className="fas fa-search button"></i>
                 </div>
             </li>
             <li>
-                <button class="button secondaryButton">Login</button>
+                <button className="button secondaryButton">Login</button>
             </li>
             <li>
-                <button class="button mainButton">Registro</button>
+                <button className="button mainButton">Registro</button>
             </li>
         </ul>  
     </header>
     <main>
         <section>
-            <h1 class="titulo">RAZAS DE PERROS</h1>
-            <ul class="breedCardContainer">
-                <li class="breedCard">
-                    <div class="contenedorImagen">
-                        <img src="./media/Border Collie.jpg" alt="Border Collie" />
+            <h1 className="titulo">RAZAS DE PERROS</h1>
+            <ul className="breedCardContainer">
+                <li className="breedCard">
+                    <div className="contenedorImagen">
+                        <img src={borderCollie} alt="Border Collie" />
                     </div>
-                    <span class="breedTitle">Border Colie</span> <br/>
-                    <div class="interactionCard interactionContainer">
-                        <i class="fas fa-heart">150</i>                       
-                        <i class="far fa-comment-alt">1.5k</i>                       
-                        <i class="fas fa-eye">120</i>                      
+                    <span className="breedTitle">Border Colie</span> <br/>
+                    <div className="interactionCard interactionContainer">
+                        <i className="fas fa-heart">150</i>                       
+                        <i className="far fa-comment-alt">1.5k</i>                       
+                        <i className="fas fa-eye">120</i>                      
                     </div>
                     
                 </li>
                 
-                <li class="breedCard">
-                    <div class="contenedorImagen">
-                        <img src="./media/Golden Retriever.jpg" alt="Golden Retriever" /> 
+                <li className="breedCard">
+                    <div className="contenedorImagen">
+                        <img src= {goldenRetriever} alt="Golden Retriever" /> 
                     </div>
-                    <span class="breedTitle">Golden Retriever</span> 
-                    <div class="interactionCard interactionContainer">
-                        <i class="fas fa-heart">450</i>                       
-                        <i class="far fa-comment-alt">1.1k</i>                       
-                        <i class="fas fa-eye">850</i>                      
+                    <span className="breedTitle">Golden Retriever</span> 
+                    <div className="interactionCard interactionContainer">
+                        <i className="fas fa-heart">450</i>                       
+                        <i className="far fa-comment-alt">1.1k</i>                       
+                        <i className="fas fa-eye">850</i>                      
                     </div>
                 </li>
             </ul>
